@@ -9,7 +9,7 @@ function UserForm() {
   });
   const [users, setUsers] = useState([]);
   const [editingUser, setEditingUser] = useState(null);
-
+// npm -i -g json-server, j-s db.json --port 3001
   // Fetch all users when component loads
   useEffect(() => {
     fetchUsers();
